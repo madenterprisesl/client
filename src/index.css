@@ -1,13 +1,556 @@
+/* Configuración del diseño CSS para el Cuerpo del Comercio Electrónico MAD Shop. */
 body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background-color: black;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Configuración del diseño CSS para invisibilizar los enlaces en botones y ponerlos de color negro.
+E invisibilizar los enlaces sin botones y ponerlos en blanco. */
+a {
+  text-decoration: none;
+  color: black;
+}
+.enlaceNoBoton {
+  color: white;
+}
+/* Configuración del diseño CSS para el ERROR 404. */
+.error404 {
+  color: red;
+  font-size: xx-large;
+  text-align: center;
+}
+#salirError404 {
+  position: relative;
+  left: 660px;
+  top: 150px;
+}
+/* Configuración del diseño CSS para todos los botones con enlace. */
+button {
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border-style: hidden;
+}
+/* Configuración del diseño CSS para todos los botones transparentes. */
+.btnTransparente {
+  background-color: transparent;
+}
+/* Configuración del diseño CSS para la Cabecera del Comercio Electrónico MAD Shop. */
+.logo {
+  width: 170px;
+  height: 150px;
+  position: relative;
+  left: 250px;
+}
+.btnesInicio {
+  font-size: large;
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  position: relative;
+  left: 450px;
+  top: -60px;
+}
+#btnRegistrarse {
+  position: relative;
+  left: 550px;
+}
+.mundo {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  position: relative;
+  top: -40px;
+  left: 850px;
+}
+.selectLang {
+  width: 80px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  position: relative;
+  top: -60px;
+  left: 860px;
+}
+/* Configuración del diseño CSS para la Cabecera Autenticada del Comercio Electrónico MAD Shop. */
+.btnesAuth {
+  font-size: large;
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  position: relative;
+  left: 450px;
+  top: -60px;
+}
+#btnCarrito {
+  position: relative;
+  top: -38px;
+  background-color: transparent;
+}
+#btnLogoOut {
+  position: relative;
+  top: -38px;
+  background-color: transparent;
+}
+.componenteAuth {
+  position: relative;
+  top: -10px;
+  width: 40px;
+  height: 40px;
+}
+#posMundo {
+  position: relative;
+  top: -40px;
+  left: 730px;
+}
+#posSelectLang {
+  position: relative;
+  top: -60px;
+  left: 740px;
+}
+/* Configuración del diseño CSS del Cuerpo del Inicio del Comercio Electrónico MAD Shop. */
+.gifms {
+  width: 100%;
+  height: 100%;
+}
+.botonCategorias {
+  position: relative;
+  top: -800px;
+  left: 670px;
+  background-color: silver;
+  font-size: xx-large;
+  padding: 15px;
+}
+/* Configuración del diseño CSS del Pie de Página del Comercio Electrónico MAD Shop. */
+.opciones {
+  color: white;
+  font-size: medium;
+  position: relative;
+  top: -40px;
+  bottom: 20px;
+  left: 550px;
+}
+#instagram {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 120px;
+  top: -25px;
+}
+#twitter {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 140px;
+  top: -25px;
+}
+#about {
+  position: relative;
+}
+#empleo {
+  position: relative;
+}
+#our {
+  position: relative;
+  top: -20px;
+  left: 100px;
+}
+/* Configuración CSS del Login del Comercio Electrónico MAD Shop. */
+.login {
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  background: silver;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+  top: 110px;
+  left: 560px;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  border-color: burlywood;
+  padding: 40px;
+  box-shadow: 14px 14px 20px silver, -14px -14px 20px white;
+}
+.tituloLogin {
+  font-size: xx-large;
+  font-weight: bold;
+  position: relative;
+  right: 90px;
+  text-align: center;
+  width: 500px;
+}
+.madshopLOGO {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 10%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px silver, -7px -7px 10px white;
+}
+#posLogoLogin {
+  position: relative;
+  top: 20px;
+}
+.entradas {
+  caret-color: red;
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+label {
+  margin-bottom: 5px;
+}
+label:nth-of-type(1) {
+  margin-top: 30px;
+}
+label:nth-of-type(2) {
+  margin-top: 10px;
+}
+#rellenoLogin {
+  border-radius: 30px;
+  height: 25px;
+  padding-left: 20px;
+}
+#btnAcceso {
+  position: relative;
+  left: 168px;
+  width: 70px;
+  height: 35px;
+}
+#iconoAinicio {
+  position: relative;
+  top: 20px;
+  left: -175px;
+  width: 50px;
+  height: 50px;
+}
+.etiquetaLogin {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+#Cliente {
+  color: rgb(17, 126, 200);
+}
+#Empresa {
+  color: orange;
+}
+/* Configuración CSS de la Pantalla Opción entre Cliente y Empresa (tanto la que da a Iniciar Sesión como la que da a Registrarse. */
+.pantallaOpcion {
+  content: center;
+  position: relative;
+  top: 300px;
+  left: 500px;
+}
+.tituloOpcion {
+  font-size: xx-large;
+  content: center;
+  color: white;
+  position: relative;
+  top: -100px;
+  left: 110px;
+}
+#iniciarSesionComo {
+  letter-spacing: 1px;
+  position: relative;
+  left: 70px;
+}
+.btnEleccion {
+  font-size: xx-large;
+  width: 200px;
+  height: 70px;
+}
+#btnEleccionEmpresa {
+  position: relative;
+  left: 150px;
+}
+/* Configuración CSS del Registro Cliente del Comercio Electrónico MAD Shop. */
+.fondoRegistrarseCliente {
+  background-image: url(./videosGIFs/gifClienteRegistrarse.gif);
+}
+.formRegistroCliente {
+  position: relative;
+  top: 60px;
+  text-align: left;
+}
+.genero {
+  position: relative;
+  left: 275px;
+}
+.separacionMujer {
+  position: relative;
+  left: 25px;
+}
+.separacionOtro {
+  position: relative;
+  left: 50px;
+}
+#distanciaTopeNombre {
+  position: relative;
+  left: 190px;
+}
+#distanciaTopeApellidos {
+  position: relative;
+  left: 180px;
+}
+#distanciaTopeDireccion {
+  position: relative;
+  left: 177px;
+}
+#distanciaTopePoblacion {
+  position: relative;
+  left: 172px;
+}
+#distanciaTopeRegion {
+  position: relative;
+  left: 195px;
+}
+#distanciaTopePais {
+  position: relative;
+  left: 218px;
+}
+#distanciaTopeCP {
+  position: relative;
+  left: 100px;
+}
+.btnDarseAltaCliente {
+  position: relative;
+  top: 15px;
+  left: 550px;
+  padding: 10px;
+}
+.btnesPantallaRegistroCliente {
+  width: 50px;
+  height: 50px;
+}
+#posAInicioCliente {
+  position: relative;
+  top: 27px;
+}
+#posAatrasCliente {
+  position: relative;
+  top: 28px;
+  left: -350px;
+}
+/* Configuraciones CSS del Registro Cliente o Empresa comunes. */
+.registrarse {
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  background: silver;
+  justify-content: center;
+  place-items: center;
+  overflow-x: hidden;
+  width: 50%;
+  height: 100%;
+  border-color: burlywood;
+  padding: 40px;
+  box-shadow: 14px 14px 20px silver, -14px -14px 20px white;
+}
+.anchoCamposRegistro {
+  width: 370px;
+  margin-left: 10px;
+  border-radius: 30px;
+  height: 25px;
+  padding-left: 20px;
+}
+#distanciaTopeEmail {
+  position: relative;
+  left: 202px;
+}
+#distanciaTopePassword {
+  position: relative;
+  left: 105px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.btnesPantallaRegistro {
+  width: 50px;
+  height: 50px;
+}
+/* Configuración CSS del Registro Empresa del Comercio Electrónico MAD Shop. */
+.fondoRegistrarseEmpresa {
+  background-image: url(./videosGIFs//gifEmpresaRegistrarse.gif);
+}
+.formRegistroEmpresa {
+  position: relative;
+  top: 70px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.tipoEmpresa {
+  position: relative;
+  left: 160px;
+}
+#distanciaTopeEmpresa {
+  position: relative;
+  left: 75px;
+}
+#distanciaTopeCIF {
+  position: relative;
+  left: 168px;
+}
+.btnDarseAltaEmpresa {
+  position: relative;
+  top: 30px;
+  left: 550px;
+  padding: 10px;
+}
+#posAInicioEmpresa {
+  position: relative;
+  top: 5px;
+}
+#posAatrasEmpresa {
+  position: relative;
+  top: 6px;
+  left: -350px;
+}
+/* Configuración del diseño CSS de la Sección Categorias del Comercio Electrónico MAD Shop. */
+.nothing {
+  background: white;
+  width: 1550px;
+  height: 600px;
+}
+.agrupacion {
+  flex-direction: row;
+  text-align: center;
+}
+#agrupacion1 {
+  position: relative;
+  top: 150px;
+  left: 200px;
+}
+#agrupacion2 {
+  position: relative;
+  top: 110px;
+  left: 900px;
+}
+#agrupacion3 {
+  position: relative;
+  top: 210px;
+  left: 500px;
+}
+#agrupacion4 {
+  position: relative;
+  top: 170px;
+  left: 1200px;
+}
+/* Configuración del diseño CSS de la Sección Contacto del Comercio Electrónico MAD Shop. */
+.fondoCont {
+  background-image: url("./images/fondo_contacto.jpg");
+  display:block;
+  width: 1550px;
+  height: 1200px;
+}
+.contacto {
+  text-align: left;
+  position: relative;
+  top: 150px;
+  left: 200px;
+}
+#datosEmail {
+  letter-spacing: 4px;
+}
+#email {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#contactoImg {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 1000px;
+  top: 20px;
+}
+/* Configuración del diseño CSS de la Sección Sobre Nosotros del Comercio Electrónico MAD Shop. */
+.fondoAbout {
+  background-image: url("./images/DuranteElCamino.png");
+  display:block;
+  width: 1550px;
+  height: 900px;
+}
+.textoAbout {
+  text-align: center;
+  width: 1000px;
+  height: 100px;
+  margin-left: 30px;
+}
+#titleAbout {
+  position: relative;
+  top: 55px;
+  size: xx-large;
+}
+/* Configuración del diseño CSS de la Sección Trabaja con Nosotros del Comercio Electrónico MAD Shop. */
+.fondoEmpleo {
+  background-image: url("./images/fondo_empleo.jpg");
+  display:block;
+  width: 1550px;
+  height: 900px;
+}
+.tituloEmpleo {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-size: xx-large;
+}
+.formEmpleo {
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  position: relative;
+  top: 90px;
+  left: 200px;
+}
+#nombreCV {
+  text-align: left;
+  width: 308px;
+}
+#apellidosCV {
+  text-align: left;
+  width: 300px;
+}
+#emailCV {
+  text-align: left;
+  width: 325px;
+}
+#birthdayCV {
+  width: 217px;
+  text-align: center;
+}
+.espaciadoCV {
+  margin: 20px;
+}
+.argumentacionCV {
+  position: relative;
+  left: 550px;
+  top: -197px;
+}
+#asuntoCV {
+  width: 600px;
+}
+#cartaPresentacion {
+  resize: both;
+  overflow: hidden;
+}
+#elboton {
+  text-decoration: none;
+  color: black;
+  font-size: medium;
 }

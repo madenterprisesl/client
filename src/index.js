@@ -1,17 +1,18 @@
-import React from 'react';
+//-- TFG de Alejandro Fernández Pérez: Parte FrontEnd.
+
+//-- Importación de dependencias React para la parte FrontEnd.
+import React, {StrictMode} from 'react';
 import ReactDOM from 'react-dom/client';
+//-- Importación de los estilos CSS del FrontEnd.
 import './index.css';
-import App from './App';
+//-- Importación del inicio del Comercio Electrónico.
+import Ecommerce from './ecommerce.js';
+//-- Importación de dependencias y funciones para posicionar mejor el Comercio Electrónico en Google.
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+//-- Punto de entrada a la renderización del Comercio Electrónico en el Navegador.
+const madshop = ReactDOM.createRoot(document.getElementById('mainMADshop'));
+madshop.render(<StrictMode><Ecommerce/></StrictMode>);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+//-- Para dar publicidad en Google sobre el Comercio Electrónico y lo posicione mejor.
 reportWebVitals();

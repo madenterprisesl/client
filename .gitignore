@@ -1,7 +1,8 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ver este link: https://help.github.com/articles/ignoring-files/ para más información
+# sobre ignorar archivos o directorios.
 
-# dependencies
-/node_modules
+# Dependencias ignoradas.
+node_modules
 /.pnp
 .pnp.js
 
