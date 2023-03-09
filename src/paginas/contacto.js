@@ -15,7 +15,7 @@ function Contacto() {
                 <h2 className='contacto'>Para más información....</h2>
                 <br/>
                 <p className='contacto' id='datosEmail'>Escríbenos al email: 
-                    <span className='contacto' id='email'>shop.mad@yahoo.com</span>
+                    <span className='contacto' id='email'>info@madenterprise.com</span>
                 </p>
                 <img src={ContactoImg} alt='contactoImg' id='contactoImg'/>
             </p>

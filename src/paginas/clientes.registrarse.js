@@ -2,8 +2,8 @@
 import React from 'react';
 //-- Importación del botón inicio por si quiere volver al Inicio sin darse de alta.
 import BtnInicio from '../images/btnInicio.png';
-//-- Importamos el logo de MAD Shop.
-import madshopLOGO from '../images/madshop.png';
+//-- Importamos el logo de MAD Enterprise.
+import madenterpriseLOGO from '../images/madenterprise.png';
 //-- Importación del botón retroceder por si quiere volver a la pantalla anterior.
 import Retroceso from '../images/retroceso.png';
 
@@ -13,7 +13,7 @@ export default function clientesRegistrarse() {
         <div className='fondoRegistrarseCliente'>
             <div className='registrarse'>
                 <h1>Darse de alta como Cliente: </h1>
-                <img src={madshopLOGO} alt='madshopLOGO' className='madshopLOGO'/>
+                <img src={madenterpriseLOGO} alt='madshopLOGO' className='madshopLOGO'/>
                 <form method="post" className='formRegistroCliente'>
                     <label>
                         Nombre: <span><input type='text' className='anchoCamposRegistro' id='distanciaTopeNombre'></input></span>

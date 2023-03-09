@@ -1,7 +1,7 @@
 //-- Importación del Elemento React para poder programar.
 import React, {useState} from 'react';
-//-- Importamos el logo de MAD Shop.
-import madshopLOGO from '../images/madshop.png';
+//-- Importamos el logo de MAD Enterprise.
+import madenterpriseLOGO from '../images/madenterprise.png';
 //-- Importación del botón inicio por si quiere volver al Inicio sin darse de alta.
 import BtnInicio from '../images/btnInicio.png';
 
@@ -22,7 +22,7 @@ export default function LoginClientes() {
             <h1 className='etiquetaLogin' id='Cliente'>Cliente</h1>
             <div className='login'>
                 <div className='tituloLogin'>INICIAR SESIÓN:</div>
-                <img src={madshopLOGO} alt='madshopLOGO' className='madshopLOGO' id='posLogoLogin'/>
+                <img src={madenterpriseLOGO} alt='madshopLOGO' className='madshopLOGO' id='posLogoLogin'/>
                 <label className='entradas'>Correo Electrónico:</label>
                 <input className='entradas' id='rellenoLogin' type='email' placeholder='Correo Electrónico....' value={email} onChange={cambiarEmail}/>
                 <label className='entradas'>Contraseña:</label>

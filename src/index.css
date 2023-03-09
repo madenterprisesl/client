@@ -79,26 +79,29 @@ button {
   left: 860px;
 }
 /* Configuración del diseño CSS para la Cabecera Autenticada del Comercio Electrónico MAD Enterprise. */
-.btnesAuth {
+.btnPerfil {
   font-size: large;
   width: 140px;
   height: 40px;
   padding: 10px;
   position: relative;
-  left: 450px;
+  left: 430px;
   top: -60px;
 }
-#btnCarrito {
+.btnCarrito {
   position: relative;
   top: -38px;
+  left: 480px;
   background-color: transparent;
 }
-#btnLogoOut {
+.btnLogoOut {
   position: relative;
   top: -38px;
+  left: 530px;
   background-color: transparent;
 }
 .componenteAuth {
+  color: white;
   position: relative;
   top: -10px;
   width: 40px;
@@ -107,12 +110,12 @@ button {
 #posMundo {
   position: relative;
   top: -40px;
-  left: 730px;
+  left: 900px;
 }
 #posSelectLang {
   position: relative;
   top: -60px;
-  left: 740px;
+  left: 910px;
 }
 /* Configuración del diseño CSS del Cuerpo del Inicio del Comercio Electrónico MAD Enterprise. */
 .gifms {
@@ -486,14 +489,18 @@ input[type=number]::-webkit-outer-spin-button {
   height: 900px;
 }
 .textoAbout {
-  text-align: center;
-  width: 1000px;
-  height: 100px;
-  margin-left: 30px;
+  position: relative;
+  top: -20px;
+  text-align: left;
+  width: 1250px;
+  height: 80px;
+  margin-left: 15px;
 }
 #titleAbout {
+  text-align: center;
   position: relative;
-  top: 55px;
+  left: -230px;
+  top: 20px;
   size: xx-large;
 }
 /* Configuración del diseño CSS de la Sección Trabaja con Nosotros del Comercio Electrónico MAD Enterprise. */
