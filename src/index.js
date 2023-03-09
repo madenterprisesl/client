@@ -11,8 +11,8 @@ import Ecommerce from './ecommerce.js';
 import reportWebVitals from './reportWebVitals';
 
 //-- Punto de entrada a la renderización del Comercio Electrónico en el Navegador.
-const madshop = ReactDOM.createRoot(document.getElementById('mainMADshop'));
-madshop.render(<StrictMode><Ecommerce/></StrictMode>);
+const madenterprise = ReactDOM.createRoot(document.getElementById('mainMADenterprise'));
+madenterprise.render(<StrictMode><Ecommerce/></StrictMode>);
 
 //-- Para dar publicidad en Google sobre el Comercio Electrónico y lo posicione mejor.
 reportWebVitals();

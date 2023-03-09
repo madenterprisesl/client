@@ -1,7 +1,7 @@
 //-- Importación del Elemento React para poder programar.
 import React from 'react';
-//-- Importamos el logo de MAD Shop.
-import madshopLOGO from '../images/madshop.png';
+//-- Importamos el logo de MAD Enterprise.
+import madenterpriseLOGO from '../images/madenterprise.png';
 //-- Importamos Iconos React.
 import {BiWorld} from 'react-icons';
 //-- Importamos el icono del carrito de compra.
@@ -13,7 +13,7 @@ import LogoOut from '../images/logoout.png';
 export default function authCabecera() {
     return(
         <div>
-            <a href='/'><img src={madshopLOGO} alt='Logo_MAD_Shop' className='logo'></img></a>
+            <a href='/'><img src={madenterpriseLOGO} alt='Logo_MAD_Shop' className='logo'></img></a>
             <button className='btnesAuth'><a href='/perfil'>Mi Perfil</a></button>
             <button className='btnesAuth' id='btnCarrito'><a href='/'><img src={Carrito} alt='Carrito' className='componenteAuth'/></a></button>
             <button className='btnesAuth' id='btnLogoOut'><a href='/'><img src={LogoOut} alt='LogoOut' className='componenteAuth'/></a></button>
