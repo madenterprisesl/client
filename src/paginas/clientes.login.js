@@ -2,8 +2,9 @@
 import React, {useState} from 'react';
 //-- Importamos el logo de MAD Enterprise.
 import madenterpriseLOGO from '../images/madenterprise.png';
-//-- Importación del botón inicio por si quiere volver al Inicio sin darse de alta.
-import BtnInicio from '../images/btnInicio.png';
+//-- Importamos Iconos React.
+import { BiHome } from 'react-icons/bi';
+import { HiArrowCircleLeft } from 'react-icons/hi';
 
 //-- Exportación del Login del Comercio Electrónico para enrrutarlo y enlazarlo con todas las páginas.
 export default function LoginClientes() {
@@ -29,7 +30,8 @@ export default function LoginClientes() {
                 <input className='entradas' id='rellenoLogin' type='password' placeholder='Contraseña....' value={password} onChange={cambiarPassword}
                 pattern="[A-Za-z][A-Za-z0-9]*[0-9][A-Za-z0-9]*" title="La contraseña debe estar compuesta de mínimo 15 caracteres, letras minúsculas y mayúsculas y, de números" required/>
                 <button type='submit' value={acceder} id='btnAcceso'><a href='/:id'>Acceder</a></button>
-                <button className='btnTransparente'><a href='/'><img src={BtnInicio} alt='boton_inicio' id='iconoAinicio'/></a></button>
+                <button className='btnTransparente'><a href='/'><BiHome id='iconoAinicio'/></a></button>
+                <button className='btnTransparente'><a href='/login'><HiArrowCircleLeft className='btnesPantallaLogin' id='posAatrasLoginCliente'/></a></button>
             </div>
         </div>
     );

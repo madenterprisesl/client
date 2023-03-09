@@ -1,11 +1,10 @@
 //-- Importación del Elemento React para poder programar.
 import React from 'react';
-//-- Importación del botón inicio por si quiere volver al Inicio sin darse de alta.
-import BtnInicio from '../images/btnInicio.png';
 //-- Importamos el logo de MAD Enterprise.
 import madenterpriseLOGO from '../images/madenterprise.png';
-//-- Importación del botón retroceder por si quiere volver a la pantalla anterior.
-import Retroceso from '../images/retroceso.png';
+//-- Importamos Iconos React.
+import { BiHome } from 'react-icons/bi';
+import { HiArrowCircleLeft } from 'react-icons/hi';
 
 //-- Exportación de Registrarse del Comercio Electrónico para enrrutarlo y enlazarlo con todas las páginas.
 export default function clientesRegistrarse() {
@@ -79,8 +78,8 @@ export default function clientesRegistrarse() {
                     <br/>
                     <button type='submit' className='btnDarseAltaCliente'><a href='/'>Darse de alta</a></button>
                 </form>
-                <button className='btnTransparente'><a href='/'><img src={BtnInicio} alt='boton_inicio' className='btnesPantallaRegistro' id='posAInicioCliente'/></a></button>
-                <button className='btnTransparente'><a href='/registrarse'><img src={Retroceso} alt='Retroceso' className='btnesPantallaRegistro' id='posAatrasCliente'/></a></button>
+                <button className='btnTransparente'><a href='/'><BiHome className='btnesPantallaRegistro' id='posAInicioCliente'/></a></button>
+                <button className='btnTransparente'><a href='/registrarse'><HiArrowCircleLeft className='btnesPantallaRegistro' id='posAatrasCliente'/></a></button>
             </div>
         </div>
     );
