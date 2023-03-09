@@ -1,7 +1,7 @@
 //-- Importación del Elemento React para poder programar.
 import React from 'react';
-//-- Importamos el logo de MAD Enterprise.
-import madenterpriseLOGO from '../images/madenterprise.png';
+//-- Importamos el logo de MAD Enterprise para Clientes.
+import madforclientsLOGO from '../images/madforclients.png';
 //-- Importamos Iconos React.
 import { BiHome } from 'react-icons/bi';
 import { HiArrowCircleLeft } from 'react-icons/hi';
@@ -12,7 +12,7 @@ export default function clientesRegistrarse() {
         <div className='fondoRegistrarseCliente'>
             <div className='registrarse'>
                 <h1>Darse de alta como Cliente: </h1>
-                <img src={madenterpriseLOGO} alt='madshopLOGO' className='madshopLOGO'/>
+                <img src={madforclientsLOGO} alt='madenterpriseLOGO' className='madenterpriseLOGO'/>
                 <form method="post" className='formRegistroCliente'>
                     <label>
                         Nombre: <span><input type='text' className='anchoCamposRegistro' id='distanciaTopeNombre'></input></span>

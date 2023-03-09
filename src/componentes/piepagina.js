@@ -19,7 +19,7 @@ export default function PiePagina() {
                 <tr>
                     <td><a href='/empleo' className='enlaceNoBoton' id='empleo'>Trabaja con nosotros</a></td>
                     <td>
-                        <a href='https://www.instagram.com/madshopsl/'><img src={Instagram} alt='Logo_Instagram' id='instagram'/></a>
+                        <a href='https://www.instagram.com/madenterpriseservices/'><img src={Instagram} alt='Logo_Instagram' id='instagram'/></a>
                         <a href='https://twitter.com/madshopsl'><img src={Twitter} alt='Logo_Twitter' id='twitter'/></a>
                     </td>
                 </tr>

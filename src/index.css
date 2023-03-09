@@ -191,7 +191,7 @@ button {
   text-align: center;
   width: 500px;
 }
-.madshopLOGO {
+.madenterpriseLOGO {
   width: 70px;
   height: 70px;
   margin: auto;
@@ -228,14 +228,14 @@ label:nth-of-type(2) {
 }
 #btnAcceso {
   position: relative;
-  left: 168px;
+  left: 220px;
   width: 70px;
   height: 35px;
 }
 #iconoAinicio {
   position: relative;
   top: 20px;
-  left: -175px;
+  left: 20px;
   width: 50px;
   height: 50px;
 }
@@ -249,6 +249,13 @@ label:nth-of-type(2) {
 }
 #Empresa {
   color: orange;
+}
+#posAatrasLoginCliente {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: -200px;
+  top: 20px;
 }
 /* Configuración CSS de la Pantalla Opción entre Cliente y Empresa (tanto la que da a Iniciar Sesión como la que da a Registrarse. */
 .pantallaOpcion {

@@ -1,7 +1,7 @@
 //-- Importación del Elemento React para poder programar.
 import React from 'react';
-//-- Importamos el logo de MAD Enterprise.
-import madenterpriseLOGO from '../images/madenterprise.png';
+//-- Importamos el logo de MAD Enterprise para Empresas.
+import madforcompaniesLOGO from '../images/madforcompanies.png';
 //-- Importamos Iconos React.
 import { BiHome } from 'react-icons/bi';
 import { HiArrowCircleLeft } from 'react-icons/hi';
@@ -12,7 +12,7 @@ export default function empresasRegistrarse() {
         <div className='fondoRegistrarseEmpresa'>
             <div className='registrarse'>
                 <h1>Darse de alta como Empresa: </h1>
-                <img src={madenterpriseLOGO} alt='madshopLOGO' className='madshopLOGO' id='posLogoRegistro'/>
+                <img src={madforcompaniesLOGO} alt='madenterpriseLOGO' className='madenterpriseLOGO' id='posLogoRegistro'/>
                 <form method="post" className='formRegistroEmpresa'>
                     <label>
                         Nombre de la Empresa: <span><input type='text' className='anchoCamposRegistro' id='distanciaTopeEmpresa'></input></span>
