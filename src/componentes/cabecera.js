@@ -1,7 +1,7 @@
 //-- Importación del Elemento React para poder programar.
 import React from 'react';
 //-- Importamos Iconos React.
-import {BiWorld} from 'react-icons';
+import {BiWorld} from 'react-icons/bi';
 //-- Importamos el logo de MAD Shop.
 import madenterpriseLOGO from '../images/madenterprise.png';
 

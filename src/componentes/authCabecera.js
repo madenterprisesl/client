@@ -3,7 +3,7 @@ import React from 'react';
 //-- Importamos el logo de MAD Enterprise.
 import madenterpriseLOGO from '../images/madenterprise.png';
 //-- Importamos Iconos React.
-import {BiWorld} from 'react-icons';
+import {BiWorld} from 'react-icons/bi';
 //-- Importamos el icono del carrito de compra.
 import Carrito from '../images/carrito.png';
 //-- Importamos el icono del cerrar sesión.
